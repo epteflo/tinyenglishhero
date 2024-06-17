@@ -1,0 +1,172 @@
+body {
+  font-family: Roboto;
+  font-size: 16px;
+  margin: 20px;
+}
+
+.ballast {
+  height: 40px;
+}
+
+.header {
+  background: #FEF8EE;
+}
+
+a.menu {
+  display: inline-block;
+  color: #E73635;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bolder;
+  padding: 20px 20px;
+  margin: 10px;
+  transition: 0.5s all;
+  border-radius: 40px;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  a.menu {
+    padding: 0;
+    margin: 10px;
+  }
+}
+
+a.menu:hover {
+  color: white;
+  background-color: #E73635;
+  border-radius: 40px;
+}
+
+a.logo {
+  display: block;
+  text-align: center;
+}
+
+a.logo img {
+  max-height: 450px;
+}
+
+.tags {
+  background: #FEF8EE;
+  border-top: 10px dotted #4092A5;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.tags span {
+  display: inline-block;
+  color: white;
+  font-weight: normal;
+  font-size: 16px;
+  /* text-transform: uppercase; */
+  padding: 8px 24px;
+  margin: 0 20px 20px 0;
+  border-radius: 40px;
+}
+
+.bg-paleblue {
+  background-color: #4092A5;
+}
+.bg-red {
+  background-color: #E73635;
+}
+.bg-blue {
+  background-color: #0E4290;
+  color: white;
+}
+.bg-egg {
+  background-color: #FEF8EE;
+}
+
+.aboutme {
+  background: #4092A5;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 10px dotted #FEF8EE;
+}
+
+.aboutme h3 {
+  display: inline-block;
+  background-color: #0E4290;
+  color: white;
+  font-size: 40px;
+  padding: 10px 80px;
+  border-radius: 50px;
+  margin-bottom: 0;
+}
+
+.aboutme h3.medium {
+  padding: 10px 80px;
+  margin-left: -120px;
+  border-left: 40px solid #0E4290;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.aboutme p.body {
+  opacity: 0.8;
+}
+
+.aboutme p.lead {
+  opacity: 1.0;
+  font-weight: bolder;
+  padding-bottom: 40px;
+}
+
+.aboutme img {
+  width: 100%;
+  border-radius: 50%;
+  transform: rotate(-6deg);
+  border: 20px solid #0E4290;
+  /* margin-left: -30px; */
+  margin-top: -60px;
+}
+
+.teaching {
+  background: #FEF8EE;
+  color: #524032;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 10px dotted #0e4290;
+}
+
+.teaching h3 {
+  display: inline-block;
+  background-color: #E73635;
+  color: white;
+  font-size: 40px;
+  padding: 10px 80px;
+  border-radius: 50px;
+  margin-bottom: 0;
+}
+
+.teaching h3.medium {
+  padding: 10px 80px;
+  margin-right: -40px;
+  border-right: 40px solid #E73635;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.teaching p.body {
+  /* opacity: 0.8; */
+}
+
+.contact {
+  background: #FEF8EE;
+}
+
+.contact h4 {
+  color: white;
+}
+
+.contact .uk-card {
+  border-radius: 50px;
+}
+
+.contact .uk-card a {
+  color: #FEF8EE;
+  font-weight: bolder;
+}
